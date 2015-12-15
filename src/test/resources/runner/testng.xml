@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+
+
+
+
+
+<test name="SelendroidHomePage test" enabled="true">
+    <classes>
+        <class name="com.evon.appium.testcases.SelendroidHomePageValidationTest" ></class>  
+    </classes>
+</test>
+
+<test name="SelendroidWebView test" enabled="true">
+    <classes>
+        <class name="com.evon.appium.testcases.WebViewInteractionTest" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>

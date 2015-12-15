@@ -1,0 +1,25 @@
+<suite name="Make my trip">
+<listeners>
+	<listener class-name="ErrorCollectors.TestListenerAdapter"/>
+</listeners> 
+
+
+<test name="Search Flight test">
+	<classes>
+		<class name="com.evon.appium.testcases.makeMyTrip.SearchFlightTest"/>
+	</classes>
+</test>
+
+<test name="Apply Filter Test">
+	<classes>
+		<class name="com.evon.appium.testcases.makeMyTrip.ApplyFilterTest"/>
+	</classes>
+</test>
+
+<test name="Traveller Detail Test">
+	<classes>
+		<class name="com.evon.appium.testcases.makeMyTrip.TravellerDetailTest"/>
+	</classes>
+</test>
+
+</suite>
